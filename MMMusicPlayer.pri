@@ -10,11 +10,6 @@
 
 QT       += core gui xml sql
 
-equals(QT_MAJOR_VERSION, 4){
-QT       += network
-CONFIG   += gcc
-include(MMMExtra/Qt4/qmmp.pri)
-}
 equals(QT_MAJOR_VERSION, 5){
 QT       += widgets multimediawidgets
 include(MMMExtra/Qt5/qmmp.pri)
