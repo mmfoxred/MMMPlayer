@@ -1,0 +1,50 @@
+#if defined(UNDER_CE)
+    include <winbase.h>
+#else
+    #include <winver.h>
+#endif
+
+IDI_ICON1                ICON     DISCARDABLE     "../MMMResource/lb_player_logo.ico"
+IDI_ICON2                ICON     DISCARDABLE     "../MMMResource/fileIcon/aac.ico"
+IDI_ICON3                ICON     DISCARDABLE     "../MMMResource/fileIcon/ac3.ico"
+IDI_ICON4                ICON     DISCARDABLE     "../MMMResource/fileIcon/flac.ico"
+IDI_ICON5                ICON     DISCARDABLE     "../MMMResource/fileIcon/mp1.ico"
+IDI_ICON6                ICON     DISCARDABLE     "../MMMResource/fileIcon/mp2.ico"
+IDI_ICON7                ICON     DISCARDABLE     "../MMMResource/fileIcon/mp3.ico"
+IDI_ICON8                ICON     DISCARDABLE     "../MMMResource/fileIcon/oga.ico"
+IDI_ICON9                ICON     DISCARDABLE     "../MMMResource/fileIcon/ogg.ico"
+IDI_ICON10               ICON     DISCARDABLE     "../MMMResource/fileIcon/pcm.ico"
+IDI_ICON11               ICON     DISCARDABLE     "../MMMResource/fileIcon/wav.ico"
+
+VS_VERSION_INFO VERSIONINFO
+    FILEVERSION 2,4,0,0
+    PRODUCTVERSION 2,4,0,0
+    FILEFLAGSMASK 0x3fL
+
+#ifdef _DEBUG
+    FILEFLAGS VS_FF_DEBUG
+#else
+    FILEFLAGS 0x0L
+#endif
+
+    FILEOS VOS__WINDOWS32
+    FILETYPE VFT_DLL
+    FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+            BEGIN
+                VALUE "FileDescription", "�������"
+                VALUE "FileVersion", "2.4.0.0"
+                VALUE "InternalName", "�������.exe"
+                VALUE "OriginalFilename", "�������.exe"
+                VALUE "ProductName", "�������"
+                VALUE "ProductVersion", "2.4.0.0"
+            END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END

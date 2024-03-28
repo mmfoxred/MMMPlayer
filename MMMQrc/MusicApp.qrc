@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/data">
+        <file alias="music.dll">../MMMResource/A_extras/music.dll</file>
+        <file alias="musicbarrage.MMM">../MMMResource/A_extras/musicbarrage.MMM</file>
+        <file alias="musicconfig.xml">../MMMResource/A_extras/musicconfig.xml</file>
+        <file alias="musicdown.MMM">../MMMResource/A_extras/musicdown.MMM</file>
+        <file alias="musichistory.MMM">../MMMResource/A_extras/musichistory.MMM</file>
+        <file alias="musicradio.dll">../MMMResource/A_extras/musicradio.dll</file>
+        <file alias="musicuser.dll">../MMMResource/A_extras/musicuser.dll</file>
+        <file alias="musicuser.MMM">../MMMResource/A_extras/musicuser.MMM</file>
+        <file alias="sound.wav">../MMMResource/A_extras/sound.wav</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,8 @@
+*.user
+*.user.*
+*.aps
+build-MMMMusicplayer-*/
+*.*-pre1
+*.autosave
+*.*~
+*.uxf
